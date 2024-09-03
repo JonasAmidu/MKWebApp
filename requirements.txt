@@ -1,5 +1,4 @@
 Flask==2.0.3
 Flask-Cors==3.0.10
 python-dotenv==0.19.2
-awsgi==0.0.11
 
