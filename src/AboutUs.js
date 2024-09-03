@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
+import video from './assets/assets/MKVideo.mp4';
 
 const AboutUs = () => {
   return (
@@ -17,6 +18,14 @@ const AboutUs = () => {
         Whether you are looking to automate processes, gain insights from data, or develop cutting-edge AI
         applications, we have the expertise to help you achieve your goals.
       </p>
+
+      {/* Video Section */}
+      <div className="video-container">
+        <video width="60%" height="auto" controls autoPlay loop muted>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 .contact-container {
   text-align: center;
   padding: 20px;
-  background: url('./assets/background.jpg') no-repeat center center fixed; /* Background image */
+  background: url('./assets/assets/background.jpg') no-repeat center center fixed; /* Background image */
   background-size: cover; /* Ensure the background covers the entire container */
   color: white; /* Text color */
   min-height: 100vh; /* Ensure the container takes up the full viewport height */

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import Lottie from 'lottie-web';
-import animationData from './assets/Ai.json'; // Adjust path as needed
-import logo1 from './assets/apple-logo.svg'; // Adjust path as needed
-import logo2 from './assets/android-logo.svg'; // Adjust path as needed
+import animationData from './assets/assets/Ai.json'; // Adjust path as needed
+import logo1 from './assets/assets/apple-logo.svg'; // Adjust path as needed
+import logo2 from './assets/assets/android-logo.svg'; // Adjust path as needed
 import './Home.css';
 
 const Home = () => {

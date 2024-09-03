@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaHome, FaInfoCircle, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
+import { FaHome, FaInfoCircle, FaProjectDiagram, FaEnvelope, FaDollarSign } from 'react-icons/fa'; // Import the dollar sign icon
 import './BottomNav.css';
 
 const BottomNav = () => {
@@ -18,9 +18,11 @@ const BottomNav = () => {
       <Link to="/contact" className="nav-link">
         <FaEnvelope /> <span>Contact</span>
       </Link>
+      <Link to="/investors" className="nav-link"> {/* New link for Investors Page */}
+        <FaDollarSign /> <span>Investors</span>
+      </Link>
     </nav>
   );
 };
 
 export default BottomNav;
-
